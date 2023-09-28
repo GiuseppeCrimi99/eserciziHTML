@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Modulo di registrazione</h1>
+    <form>
+        <label for="email">Email<abbr title="required">*</abbr></label>
+        <input type="email"name="email"placeholder="example@outlook.it">
+        <label for="password">Password<abbr title="required">*</abbr></label>
+        <input type="password"name="password">
+        <label for="password">Confirm password<abbr title="required">*</abbr></label>
+        <input type="password"name="password">
+        <label for="firstandlast_name">Name and Surname<abbr title="required">*</abbr></label>
+        <input type="firstandlast_name"name="firstandlast_name"placeholder="Mario Rossi">
+        <label for="date">Year of birth<abbr title="required">*</abbr></label>
+        <input type="date"name="date">
+        <label for="phonenumber">Phone number<abbr title="required">*</abbr></label>
+        <input type="phonenumber"name="phonenumber">
+        
+        <input type="checkbox"name="proplan"value="proplan">
+        <label for="proplan">Pro plan<abbr title="required">*</abbr></label>
+            <label for="card">Choosing Plan:<abbr title="required">*</abbr></label>
+            <select name="card_card"id="card_card">
+            <option value="plan">Plan</option>
+            <option value="Free 0,00">Free 0,00$</option>
+            <option value="Medium 9,99">Medium 9,99</option>
+            <option value="Premium 14,99">Premium 14,99</option>
+            </select>
+        <label for="creditcard">Credit card number<abbr title="required">*</abbr></label>
+        <input type="creditcard"name="creditcard"minlength="2"maxlength="19">
+        <label for="cvc"><abbr title="required">*</abbr>CVC</label>
+        <input type="cvc"name="cvc"minlength="2"maxlength="5">
+        <label for="date">Expiration date<abbr title="required">*</abbr></label>
+        <input type="date"name="date">
+        <label for="address">Billing Address<abbr title="required">*</abbr></label>
+        <input type="address"name="address">
+
+        
+        
+
+    </form>
+</body>
+</html>
