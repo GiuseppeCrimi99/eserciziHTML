@@ -1,5 +1,64 @@
+body{
+    font-size: 20px;
+    margin: 0;
+}
+
+nav{
+background-color:rgb(1, 17, 31);
+color: aliceblue;
+padding: 10px;
+
+}
+h3,form{
+    display: inline;
+}
+ul{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+ul>li{
+    display: inline;
+    text-decoration:none;
+    padding: 5px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#dropdown_content{
+display: inline;
+color: aliceblue;
+border: none;
+background-color:rgb(1, 17, 31);
+font-size: 20px;
+padding: 5px;
+}
+#casella{
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    position:relative; 
+    top:0%;
+    left:60px;
+    
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    position:relative; 
+    top:0px;
+    left:60px; 
+    background-color: rgb(1, 17, 31);
+    color:green;
+    border-color: green;
+}
+
 button:hover{
     background-color: green;
     color: white;
 }
+
 
